@@ -1,0 +1,22 @@
+include=~/.local/share/dotfiles/fuzzel/themes/ayu-dark-hp13.ini
+font=Lexend Medium:size=16
+use-bold=yes
+icon-theme=Papirus-Dark
+terminal=foot -a '{cmd}' -T '{cmd}' {cmd}
+lines=10
+width=30
+tabs=4
+horizontal-pad=20
+inner-pad=10
+line-height=32
+keyboard-focus=exclusive
+exit-on-keyboard-focus-loss=yes
+
+[border]
+width=3
+radius=12
+selection-radius=6
+
+[dmenu]
+
+[key-bindings]

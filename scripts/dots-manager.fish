@@ -18,7 +18,11 @@ set -l links \
     "$DOTFILES/foot/foot.ini:$HOME/.config/foot/foot.ini" \
     "$DOTFILES/fuzzel/fuzzel.ini:$HOME/.config/fuzzel/fuzzel.ini" \
     "$DOTFILES/kitty/kitty.conf:$HOME/.config/kitty/kitty.conf" \
-    "$DOTFILES/imv/config:$HOME/.config/imv/config"
+    "$DOTFILES/imv/config:$HOME/.config/imv/config" \
+    "$DOTFILES/gtk/gtk.css:$HOME/.config/gtk-3.0/gtk.css" \
+    "$DOTFILES/gtk/gtk.css:$HOME/.config/gtk-4.0/gtk.css" \
+    "$DOTFILES/gtk/settings.ini:$HOME/.config/gtk-3.0/settings.ini" \
+    "$DOTFILES/gtk/settings.ini:$HOME/.config/gtk-4.0/settings.ini" \
 
 for item in $links
     set -l parts (string split ":" $item)

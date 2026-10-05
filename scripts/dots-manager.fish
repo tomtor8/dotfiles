@@ -17,7 +17,8 @@ set -l links \
     "$DOTFILES/fastfetch/config.jsonc:$HOME/.config/fastfetch/config.jsonc" \
     "$DOTFILES/foot/foot.ini:$HOME/.config/foot/foot.ini" \
     "$DOTFILES/fuzzel/fuzzel.ini:$HOME/.config/fuzzel/fuzzel.ini" \
-    "$DOTFILES/kitty/kitty.conf:$HOME/.config/kitty/kitty.conf"
+    "$DOTFILES/kitty/kitty.conf:$HOME/.config/kitty/kitty.conf" \
+    "$DOTFILES/imv/config:$HOME/.config/imv/config"
 
 for item in $links
     set -l parts (string split ":" $item)

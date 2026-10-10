@@ -23,6 +23,7 @@ set -l links \
     "$DOTFILES/gtk/gtk.css:$HOME/.config/gtk-4.0/gtk.css" \
     "$DOTFILES/gtk/settings.ini:$HOME/.config/gtk-3.0/settings.ini" \
     "$DOTFILES/gtk/settings.ini:$HOME/.config/gtk-4.0/settings.ini" \
+    "$DOTFILES/zathura/zathurarc:$HOME/.config/zathura/zathurarc"
 
 for item in $links
     set -l parts (string split ":" $item)

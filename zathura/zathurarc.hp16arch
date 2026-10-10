@@ -1,0 +1,54 @@
+# Light theme made in the spirit of 'alect-light':
+# <https://github.com/alezost/alect-themes>.
+
+set font "'Exo' 12"
+set guioptions ""
+set statusbar-basename true
+set window-title-basename true
+set selection-clipboard clipboard
+# set default-bg "#ffffff" # d2c9b0
+# set default-fg "#262626"
+# set inputbar-bg "#282c34"
+# set inputbar-fg "#abb2bf"
+# set statusbar-bg "#4b5263"
+# set statusbar-fg "#abb2bf"
+# set window-height 3000
+# set window-width 3000
+# set completion-bg "#4b5263"
+# set completion-fg "#abb2bf"
+# set completion-group-bg "#4b5263"
+# set completion-group-fg "#282c34"
+# set completion-highlight-bg "#98c379"
+# set completion-highlight-fg "#282c34"
+
+# set notification-bg "#4b5263"
+# set notification-fg "#abb2bf"
+# set notification-warning-bg "#f0f0b0"
+# set notification-warning-fg "#101010"
+# set notification-error-bg "#be5046"
+# set notification-error-fg "#101010"
+#
+# set index-bg "#282c34"
+# set index-fg "#abb2bf"
+# set index-active-bg "#98c379"
+# set index-active-fg "#262626"
+
+# set recolor "true"
+# set recolor-keephue "true"
+# set recolor-reverse-video "true"
+# set recolor-lightcolor "#282c34"
+# set recolor-darkcolor "#abb2bf"
+unmap f
+map f toggle_fullscreenstatusbar-
+map F file_chooser
+map t toggle_index
+map x toggle_statusbar
+map w adjust_window width
+map [fullscreen] f toggle_fullscreen
+map i recolor
+set adjust-open "width"
+# set smooth-scroll "true"
+# set highlight-color "#98c379" #0A
+# set highlight-active-color "#e06c75" #0D
+
+include /home/tom/.local/share/dotfiles/zathura/themes/ayu-dark

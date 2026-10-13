@@ -28,9 +28,10 @@ paste_actions replace-newline,confirm-if-large
 strip_trailing_spaces smart
 
 # WINDOW
-window_margin_width 3
-window_padding_width 5
+window_margin_width 2 1
+window_padding_width 0 4
 single_window_padding_width 5
+window_border_radius 12
 
 inactive_text_alpha 0.8
 background_opacity 1.0

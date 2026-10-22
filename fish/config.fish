@@ -1,5 +1,5 @@
 # ADD DIRS TO PATH {{{1
-fish_add_path ~/.local/bin ~/bin ~/.cargo/bin
+fish_add_path ~/.local/bin ~/bin
 # REMOVE GREETING {{{1
 set -g fish_greeting
 

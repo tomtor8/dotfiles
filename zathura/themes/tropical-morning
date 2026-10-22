@@ -1,6 +1,5 @@
-# Ayu Dark Theme for Zathura
 set default-fg                  rgba(191,189,182,1)
-set default-bg                  rgba(18, 19, 23,1)
+set default-bg                  rgba(18,19,23,1)
 
 set completion-bg               rgba(25,30,39,1)
 set completion-fg               rgba(191,189,182,1)
@@ -22,7 +21,7 @@ set notification-warning-fg     rgba(255,179,102,1)
 set inputbar-fg                 rgba(191,189,182,1)
 set inputbar-bg                 rgba(25,30,39,1)
 
-set recolor                     "false"
+set recolor                     false
 set recolor-lightcolor          rgba(10,14,20,1)
 set recolor-darkcolor           rgba(191,189,182,1)
 
@@ -34,7 +33,6 @@ set index-active-bg             rgba(25,30,39,1)
 set render-loading-bg           rgba(10,14,20,1)
 set render-loading-fg           rgba(191,189,182,1)
 
-# Highlight colors (using Ayu Orange and Blue with transparency)
 set highlight-color             rgba(255,179,102,0.3)
 set highlight-fg                rgba(230,176,76,0.5)
 set highlight-active-color      rgba(89,194,255,0.4)
